@@ -261,7 +261,7 @@ export default function ScreenLayout({
           className="relative z-40 w-full bg-neutral-950/95 border-t border-red-500/40 backdrop-blur-xl shadow-2xl flex items-center h-14 overflow-hidden"
         >
           {/* Live Flash Badge */}
-          <div className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-rose-600 text-white px-5 h-full font-bold uppercase tracking-wider text-xs md:text-sm shadow-md shrink-0 z-10">
+          <div className="flex items-center gap-2 bg-linear-to-r from-red-600 to-rose-600 text-white px-5 h-full font-bold uppercase tracking-wider text-xs md:text-sm shadow-md shrink-0 z-10">
             <Radio className="w-4 h-4 animate-pulse text-white" />
             <span>FLASH NEWS</span>
           </div>
