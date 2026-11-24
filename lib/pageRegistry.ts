@@ -22,7 +22,7 @@ export const PAGE_REGISTRY: readonly PageDefinition[] = [
     accentColor: "blue",
     gradient: "from-blue-500/20 via-indigo-500/10 to-transparent",
   },
-  {
+   {
     id: "speakers",
     route: "/screen/speakers",
     title: "Speaker 1",
@@ -33,6 +33,17 @@ export const PAGE_REGISTRY: readonly PageDefinition[] = [
     accentColor: "emerald",
     gradient: "from-emerald-500/20 via-green-500/10 to-transparent",
   },
+  {
+    id: "register-now",
+    route: "/screen/register-now",
+    title: "Register Now",
+    subtitle: "Join the Re:Invent Fest 2026",
+    category: "Registration",
+    description: "Sign up for the Re:Invent Fest 2026 and be part of the exciting event.",
+    iconName: "User",
+    accentColor: "green",
+    gradient: "from-green-500/20 via-emerald-500/10 to-transparent",
+  }
 ] as const;
 
 export const DEFAULT_ROUTE = "/screen/sample";
