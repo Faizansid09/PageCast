@@ -1,4 +1,3 @@
-```markdown
 # PageCast
 
 Real-time digital signage and advertainment system built **100% with Next.js (App Router)**. Control multiple displays individually or in broadcast mode using native Server-Sent Events (SSE) and automatic filesystem-based page discovery—with zero external backend or database required.
