@@ -97,7 +97,7 @@ export default function SpeakersScreen() {
     if (speakers.length === 0) return;
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % speakers.length);
-    }, 10000);
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
