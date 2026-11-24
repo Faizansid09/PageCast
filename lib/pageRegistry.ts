@@ -23,18 +23,7 @@ export const PAGE_REGISTRY: readonly PageDefinition[] = [
     gradient: "from-blue-500/20 via-indigo-500/10 to-transparent",
   },
   {
-<<<<<<< HEAD
-    id: "speakers",
-    route: "/screen/speakers",
-    title: "Speaker 1",
-    subtitle: "Meet Our Speakers",
-    category: "Speakers",
-    description: "A sequential display of all 12 speaker profiles with photos, titles, and bios.",
-    iconName: "Users",
-    accentColor: "emerald",
-    gradient: "from-emerald-500/20 via-green-500/10 to-transparent",
-  },
-=======
+<<<<<<<<< Temporary merge branch 1
     id: "register-now",
     route: "/screen/register-now",
     title: "Register Now",
@@ -45,7 +34,18 @@ export const PAGE_REGISTRY: readonly PageDefinition[] = [
     accentColor: "green",
     gradient: "from-green-500/20 via-emerald-500/10 to-transparent",
   }
->>>>>>> 21c4b0eab69bf3ef1bb33dd4d89d08ac0ba982f0
+=========
+    id: "speakers",
+    route: "/screen/speakers",
+    title: "Speaker 1",
+    subtitle: "Meet Our Speakers",
+    category: "Speakers",
+    description: "A sequential display of all 12 speaker profiles with photos, titles, and bios.",
+    iconName: "Users",
+    accentColor: "emerald",
+    gradient: "from-emerald-500/20 via-green-500/10 to-transparent",
+  },
+>>>>>>>>> Temporary merge branch 2
 ] as const;
 
 export const DEFAULT_ROUTE = "/screen/sample";
